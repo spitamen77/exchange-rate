@@ -1,0 +1,35 @@
+/**
+ * Created by PhpStorm.
+ * Author: Abdujalilov Dilshod
+ * Telegram: https://t.me/coloterra
+ * Web: http://www.websar.uz
+ * Project: exchange
+ * Date: 10.02.2020 20:35
+ */
+
+body {
+    margin: 50px;
+    font-family: sans-serif;
+}
+#courses {
+    background-color: #333333;
+    color: #fff;
+    display: table;
+    padding: 5px 20px;
+    width: 500px;
+    text-align: center;
+}
+#courses > div {
+    display: table-cell;
+    width: 33%;
+    vertical-align: middle;
+}
+#courses > div:first-child {
+    color: #999999;
+}
+#courses i {
+    color: #fff;
+}
+#courses i.fa-circle {
+    color: #663399;
+}
