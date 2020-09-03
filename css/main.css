@@ -221,3 +221,6 @@ button:active {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.curse {
+  margin-left: -10px;
+}

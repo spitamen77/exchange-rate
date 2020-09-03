@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Valyutalar kursi",
+  "description": "NBU.com valyutalar kursi",
+  "version": "1.0",
+  "author": "@coloterra - Telegram",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "page": "background.html"
+  },
+
+  "permissions": [ "activeTab", "storage", "<all_urls>", "webRequest", "webRequestBlocking","https://nbu.uz/uz/exchange-rates/json/" ],
+  "update_url": "https://clients2.google.com/service/update2/crx"
+}
